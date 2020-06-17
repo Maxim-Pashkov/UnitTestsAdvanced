@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace UnitTestsAdvanced
 {
-    public class Class1
+    public interface BankValuteInterface
     {
+        string key { get; set; }
+        int course { get; set; }
+
+        double getPercent();
     }
 }
